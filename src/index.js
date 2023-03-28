@@ -5,21 +5,18 @@ import App from './pages/App';
 import Profile from './pages/Profile'
 import Create from './pages/Create'
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
   {
   path: "/",
   element: < App /> ,
 }, 
 {
-  path: "profile",
+  path: "/profile",
   element: <Profile/>
 },
 {
-  path: "create",
+  path: "/create",
   element: <Create/>
 }
 ]);
